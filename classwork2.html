@@ -42,6 +42,21 @@
             
         }
 
+        /* Icon Container*/
+        .icon {
+            display: flex;
+            justify-content: center;
+            gap: 20p;
+            margin-top: 20px;
+        }
+        /* Individual Icon Name */
+        .icon-container {
+            display: flex;
+            flex-direction: r;
+            align-items: center;
+        }
+
+
         .icons {
             display: flex;
             justify-content: center;
@@ -54,10 +69,17 @@
             height: 50px;
         }
 
+        /* Icon Name*/
+        .icon-name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
         /* leftupright text */
         .left-text {
             position: absolute;
-            left: -10px;
+            left:70px;
             top: 300px;
             transform: rotate(-90deg);
             font-size: 14px;
@@ -70,7 +92,7 @@
          /* rightupright text */
          .right-text {
             position: absolute;
-            right: -10px;
+            right:60px;
             top: 300px;
             transform: rotate(-90deg);
             font-size: 14px;
@@ -78,15 +100,10 @@
             font-weight: bold;
             white-space: nowrap;
 
-            p
 
         }
 
-        .instruction {
-            font-size: 14px;
-            color: green;
-            margin-top: 15px;
-        }
+       
     </style>
 </head>
 <body>
@@ -95,17 +112,26 @@
         <div class="title">TiiN NiG®</div>
         <div class="subtitle">ALUMINIUM COMPOSITE PANEL</div>
         
-        <div class="icons">
+        <div class="icon-container">
          <img  src="/Week1/images/cutting.jpeg" class="icon" alt="Cutting" >
-            <img class="icon" src="/Week1/images/bouting & folding.png" alt="Bending">
+        
+            <img class="icon" src="/Week1/images/bouting & folding.png"  alt="Bending">
             <img class="icon" src="/Week1/images/gluing of the fitmand.png" alt="Gluing">
             <img class="icon" src="/Week1/images/recyclable.jpeg" alt="Recycling">
         </div>
 
+        <div class="texts">
+            <h3>Cutting</h3>
+
+        </div>
+
         <!--upright text on both sides-->
-        <div class="left-text">INSTALL EACH PANEL IN ONE DIRECTION</div>
-        <div class="right-text">INSTALL EACH PANEL IN ONE DIRECTION</div>
+        <div class="left-text">INSTALL EACH PANEL IN ONE DIRECTION ONLY</div>
+        <div class="right-text">PLEASE TEAR OFF PROTECTIVE FILM WITHIN 45DAYS AFTER INSTALLATION</div>
     </div>
+
+
+    
 
 </body>
 </html>

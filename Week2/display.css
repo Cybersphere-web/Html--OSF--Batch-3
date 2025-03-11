@@ -1,0 +1,55 @@
+.main-content1{
+ display: flex;
+}
+
+.main-content2{
+  display: flex;
+}
+
+.main-content1 > .cont1, .cont2, .cont3{
+  background-color: blueviolet;
+  color: whitesmoke;
+  margin: 0px 0px 2px 3px;
+  padding: 4px 4px 4px 4px;
+}
+
+.main-content2 > .cont4, .cont5, .cont6{
+  background-color: black;
+  color: whitesmoke;
+  margin: 0px 0px 2px 3px;
+  padding: 4px 4px 4px 4px;
+}
+
+.dd{
+  position:absolute;
+  color: #060000;
+  bottom: 0;
+  right: 5px;
+  width: 200px;
+  border: 3px solid #73AD21;
+}
+
+.df {
+  background-color: aqua;
+}
+.df img {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.df h3 {
+  padding-bottom: 500px;
+}
+
+.flow {
+  overflow: auto;
+  background-color: aqua;
+  width: 400px;
+  height: 100px;
+
+}
+
+.button:hover {
+  background-color: rgb(3, 6, 6);
+  color: aliceblue;
+}
